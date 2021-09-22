@@ -5,3 +5,5 @@ ON w.id=p.wizard_id
 LEFT JOIN team AS t
 ON t.id= p.team_id
 ORDER BY team_name,player_role,lastname,firstname;
+
+
